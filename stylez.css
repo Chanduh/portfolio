@@ -1,0 +1,148 @@
+
+
+*{
+    /* border: .5px solid pink; */
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: rgb(79, 79, 79);
+    scroll-behavior: smooth;
+
+}
+body{
+    margin: 0px;
+        background-color: rgb(250, 250, 250);
+
+}
+
+
+
+.boxShadow{
+-webkit-box-shadow: -2px 11px 60px -4px rgba(247,161,217,1);
+-moz-box-shadow: -2px 11px 60px -4px rgba(247,161,217,1);
+ box-shadow: -2px 11px 60px -4px rgba(247,161,217,1);
+}
+
+.button{
+    display: flex;
+
+}
+
+button{
+    border: 1px solid black;
+    justify-content: flex-end;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;;
+
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+li{
+    list-style: none;
+
+    padding: 15px;
+    margin-left: -10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: rgb(255, 176, 227);
+
+}
+
+#menu{
+    position: fixed;
+    top: 30%;
+    left: -30px;
+    /* background-color: rgb(255, 176, 227); */
+    border-radius: 30px;
+    padding-right: 5px;
+    color: white;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20%;
+
+}
+
+#container{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.project{
+padding: 10px;
+}
+
+.projects{
+    flex-wrap: nowrap;
+
+}
+
+.img{
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 1rem;
+    max-height: 34rem;
+
+}
+
+.desktopImg{
+    max-width: 30rem;
+    -webkit-box-shadow: -2px 11px 60px -4px rgba(247,161,217,1);
+-moz-box-shadow: -2px 11px 60px -4px rgba(247,161,217,1);
+ box-shadow: -2px 11px 60px -4px rgba(247,161,217,1);
+}
+
+
+.projectDetails{
+    display: flex;
+    display: inline-block;
+    flex-direction: column;
+    width: 30rem;
+}
+.tools{
+    display: flex;
+    height: 4rem;
+    width: auto;
+}
+
+#contact{
+ 
+}
+
+h1{
+    font-size: 3rem;
+    margin: 1rem;
+
+}
+
+.projectTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    margin: 10px;
+    font-size: 2rem;
+
+}
+
+p{
+    margin: .6rem;
+
+}
+
+
